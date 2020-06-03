@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 233, 224);
+}
+
+.jumbotron-above{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: url(https://www.gonomad.com/images/destinations/0701/cleveland-images/North-Coast-Harbor-Skyline.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    text-align: center;
+    
+}
+
+h1{
+    color: darkblue;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: darkblue;
+    background-size: 100%;
+}
+
+.navbar-nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: darkblue;
+    padding: 5rem;
+    display: block;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+li:hover {
+    background-color: rgb(202, 223, 202);
+}
+
+h2 {
+    color: darkblue;
+    margin-left: 3rem;
+}
+
+.container-fluid {
+    clear: both;
+    float: left;
+}
+
+.container {
+    clear: both;
+    float: left;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.name, .address1, .address2, .phone, .emailaddress1, .emailaddress2, .message, .city, .state, .zipcode {
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+}
+
+.city, .state, .zipcode {
+    margin-right: 158px;
+}
+.custom-control-input{
+    margin-left: 5rem;
+}
+.custom-control-input2{
+    margin-left: 10rem;
+}
+
+.emailaddress1 {
+    margin-right: 72px;
+}
+.btn-primary{
+    margin-top: 10px;
+}
+.footer-jumbotron {
+    background: url(https://www.gonomad.com/images/destinations/0701/cleveland-images/North-Coast-Harbor-Skyline.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    height: 80px;
+    padding-top: .8rem;
+}
+
+.footer-jumbotron p{
+    margin: 0;
+    padding: 0;
+    color: darkblue;
+    font-weight: bolder;
+    text-align: center;
+} 
+
+@media (max-width: 400px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-li {
+        display: none;
+    }
+@media (max-width: 200px){
+    .container2{
+        display: -moz-inline-box;
+    }

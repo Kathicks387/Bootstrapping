@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 233, 224);
+}
+
+.jumbotron-above{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: url(https://www.gonomad.com/images/destinations/0701/cleveland-images/North-Coast-Harbor-Skyline.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    text-align: center;
+}
+
+h1{
+    color: darkblue;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: darkblue;
+    background-size: 100%;
+}
+.navbar-nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: darkblue;
+    padding: 5rem;
+    display: block;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+li:hover {
+    background-color: rgb(202, 223, 202);
+}
+
+h2 {
+    color: darkblue;
+    margin-left: 5rem;
+    margin-bottom: 0rem;
+}
+
+.container {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.rounded-circle {
+    height:300px;
+    width: 300px;
+    clear: both;
+    float: left;
+    margin: 10px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}  
+
+.footer-jumbotron {
+    background: url(https://www.gonomad.com/images/destinations/0701/cleveland-images/North-Coast-Harbor-Skyline.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    height: 80px;
+    padding-top: .8rem;
+}
+
+.footer-jumbotron p{
+    margin: 0;
+    padding: 0;
+    color: darkblue;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+
+ 
+
+

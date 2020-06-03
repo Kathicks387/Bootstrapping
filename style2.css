@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 233, 224);
+}
+
+.jumbotron-above{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: url(https://www.gonomad.com/images/destinations/0701/cleveland-images/North-Coast-Harbor-Skyline.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    text-align: center;
+}
+
+h1{
+    color: darkblue;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: darkblue;
+    background-size: 100%;
+}
+.navbar-nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: darkblue;
+    padding: 5rem;
+    display: block;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+li:hover {
+    background-color: rgb(202, 223, 202);
+}
+
+h2 {
+    color: darkblue;
+    margin-left: 4rem;
+    margin-bottom: 0rem;
+ }
+
+.img {
+    height: 100%;
+    width: 100%;
+    z-index: 0; 
+    position: relative;
+    padding: 4rem;
+    margin: 1rem;
+    display: inline-block
+}
+
+.bottom-centered {
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    background-size: 50rem;
+    text-align: center;
+    color: darkblue;
+    font-size: 52px;
+    font-weight: bolder;
+}
+
+.footer-jumbotron {
+    background: url(https://www.gonomad.com/images/destinations/0701/cleveland-images/North-Coast-Harbor-Skyline.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    height: 80px;
+    padding-top: .8rem;
+    
+}
+
+.footer-jumbotron p{
+    margin: 0;
+    padding: 0;
+    color: darkblue;
+    font-weight: bolder;
+    text-align: center;
+}
+ 
+
+@media (max-width: 400px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-li {
+        display: none;
+    }
+@media (max-width: 200px){
+    .container2{
+        display: -moz-inline-box;
+    }
