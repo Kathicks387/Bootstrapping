@@ -64,6 +64,11 @@ h2 {
     float: left;
 }
 
+hr {
+    height: 25px;
+    color: darkblue
+}
+
 .container {
     clear: both;
     float: left;
