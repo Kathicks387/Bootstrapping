@@ -43,8 +43,9 @@
         </div>
     </div>
      
-    <div class="container">
-        <form>
+       <div class="column-6">
+        
+        <form action="mailto:info@KatrinaRHicks@gmail.com" method="POST" enctype="text/plain">
             <label class="name" for="name">Name</label>
             <div class="form-row">
                 <div class="col">
@@ -53,6 +54,7 @@
                 </div>
             </div>
 
+            
             <label class="address1" for="address1">Address 1</label>
             <div class="form-row">
                 <div class="col-6">
@@ -95,11 +97,12 @@
                     <input type="text" class="form=control" id="home" placeholder="Home">
                     <input type="text" class="form=control" id="mobile" placeholder="Mobile">
                     <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck" >
-                        <label class="custom-control-label" for="customCheck"></label>
-                        <input type="checkbox" class="custom-control-input2" id="customCheck" >
-                        <label class="custom-control-label" for="customCheck"></label>
-                        <p>Check preference</p>
+                        <label for="Home">
+                            <input id="Home" type="radio" name="Home-Mobile">Home</label>
+                        <label for="Mobile"> 
+                            <input id="Mobile" type="radio" name="Home-Mobile">Mobile 
+                          </label>
+                        <p class="preference">Check preference</p>
                     </div> 
                 </div>
             </div>
@@ -108,15 +111,16 @@
             <label class="emailaddress2" for="emailaddress2">Email Address 2</label>
             <div class="form-row">
                 <div class="col">
-                    <input type="text" class="form=control" id="emailaddress1" placeholder="Someone@gmail.com">
-                    <input type="text" class="form=control" id="emailaddress2" placeholder="Someone@gmail.com">
+                    <input type="email" class="form=control" id="emailaddress1" placeholder="Someone@gmail.com">
+                    <input type="email" class="form=control" id="emailaddress2" placeholder="Someone@gmail.com">
                 </div>
             </div>
            
-            <label class="message" for="message">Message</label>
+            <label class="message" for="message">Message</label><br>
+
+            <textarea rows="5" cols="40" placeholder="Write your message here"></textarea>
             <div class="form-row">
                 <div class="col-6">
-                    <input type="text" class="form-control" id="message" placeholder="Write your message here.">
                 </div>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
