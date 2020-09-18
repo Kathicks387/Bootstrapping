@@ -70,16 +70,57 @@ h2 {
 
 .bottom-centered {
     position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     
+    background-size: 50rem;
+    text-align: center;
+    color: burlywood;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.bottom-centered2 {
+    position: absolute;
     top: 89%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: whitesmoke;
+    
     background-size: 50rem;
     text-align: center;
-    color: darkblue;
-    font-size: 30px;
+    color: burlywood;
+    font-size: 20px;
     font-weight: bolder;
 }
+.bottom-centered3 {
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-size: 50rem;
+    text-align: center;
+    color: burlywood;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.bottom-centered4 {
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: burlywood;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.generator {
+    font-size: 13px;
+}
+
 
 .footer-jumbotron {
     background: url(https://www.gonomad.com/images/destinations/0701/cleveland-images/North-Coast-Harbor-Skyline.jpg) no-repeat 50% 50%;
@@ -99,7 +140,7 @@ h2 {
  
 
 @media screen and (max-width: 400px) {
-    .toggle-button {
+    .toggle-button, .bottom-centered, .bottom-centered2, .bottom-centered3, .bottom-centered4 {
         display: flex;
     }
 
@@ -108,7 +149,7 @@ h2 {
     }
 }
 @media screen and (max-width: 200px){
-    .container2, .bottom-centered{
+    .container2 {
         display: -moz-inline-box;
     }
 }
