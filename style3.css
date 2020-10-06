@@ -75,36 +75,19 @@ hr {
     padding: 1rem;
     margin: 1rem;
 }
-
-.name, .address1, .address2, .phone, .emailaddress1, .emailaddress2, .message, .city, .state, .zipcode {
-    margin-bottom: 0rem;
-    margin-top: 1rem;
+.card {
+    width: 300px;
+    margin-left: 35rem;
 }
 
-.city, .state, .zipcode {
-    margin-right: 158px;
-}
-#Home {
-    margin-left: 0rem;
-}
-#Mobile {
-    margin-left: 8rem;
-}
-.p-preference {
-    margin-left: 0rem;
+p, .size{
+    text-align: center;
+    color: darkblue;
+    font-size: 20px;
+    font-style: italic;
+    padding: 0px;
 }
 
-.emailaddress1 {
-    margin-right: 72px;
-}
-.message{
-    margin-left: 0rem;
-   
-}
-.btn-primary{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 .footer-jumbotron {
     background: url(https://www.gonomad.com/images/destinations/0701/cleveland-images/North-Coast-Harbor-Skyline.jpg) no-repeat 50% 50%;
     background-size: 100%;
@@ -120,13 +103,13 @@ hr {
     text-align: center;
 } 
 
-@media screen and (max-width: 400px) {
-    .toggle-button {
-        display: flex;
+@media screen and (max-width: 450px) {
+    ul .navbar-nav{
+        display: inline-flex;
     }
-
-    .navbar-li {
-        display: none;
+    
+    .li nav-item {
+       display: inline;
     }
 }
 @media screen and (max-width: 200px){

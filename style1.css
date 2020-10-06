@@ -103,10 +103,10 @@ h2 {
     text-align: center;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 400px){
     .rounded-circle{width: 200px; }
 }
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 400px){
     .rounded-circle{width: 200px; }
 } 
 .rounded-circle {height: auto}

@@ -42,10 +42,11 @@ li {
 a{
     text-decoration: none;
     color: darkblue;
-    padding: 5rem;
+    padding: 4rem;
     display: block;
     font-weight: bolder;
     font-size: 20px;
+    
 }
 
 li:hover {
@@ -58,6 +59,17 @@ h2 {
     margin-bottom: 0rem;
  }
 
+ .card-title {
+     font-size: 50px;
+     text-align: center;
+     color: darkblue;
+ }
+
+ .para {
+     text-align: center;
+     color: darkblue;
+     font-size: 30px;
+ }
 .img {
     height: 100%;
     width: 100%;
@@ -68,54 +80,19 @@ h2 {
     display: inline-block
 }
 
-.bottom-centered {
-    position: absolute;
-    top: 84%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-     
-    background-size: 50rem;
-    text-align: center;
-    color: burlywood;
-    font-size: 20px;
-    font-weight: bolder;
+.float {
+    display: inline-block;
 }
 
-.bottom-centered2 {
-    position: absolute;
-    top: 89%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-    background-size: 50rem;
-    text-align: center;
-    color: burlywood;
-    font-size: 20px;
-    font-weight: bolder;
-}
-.bottom-centered3 {
-    position: absolute;
-    top: 87%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-    background-size: 50rem;
-    text-align: center;
-    color: burlywood;
-    font-size: 20px;
-    font-weight: bolder;
+.floats {
+    display: inline-block;
+    padding: 3rem;
 }
 
-.bottom-centered4 {
-    position: absolute;
-    top: 89%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.over {
     text-align: center;
-    color: burlywood;
-    font-size: 20px;
-    font-weight: bolder;
 }
+
 
 .generator {
     font-size: 13px;
@@ -139,17 +116,3 @@ h2 {
 }
  
 
-@media screen and (max-width: 400px) {
-    .toggle-button, .bottom-centered, .bottom-centered2, .bottom-centered3, .bottom-centered4 {
-        display: flex;
-    }
-
-    .navbar-li {
-        display: none;
-    }
-}
-@media screen and (max-width: 200px){
-    .container2 {
-        display: -moz-inline-box;
-    }
-}
