@@ -5,7 +5,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(230, 233, 224);
 }
 
 .jumbotron-above{
@@ -24,10 +23,10 @@ h1{
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
-    color: darkblue;
     background-size: 100%;
+    background-color: darkblue;
 }
 .navbar-nav ul {
     margin-left: 5px;
@@ -37,19 +36,24 @@ h1{
 
 li {
     list-style: none;
+    margin: 20px;
 }
 
 a{
     text-decoration: none;
     color: darkblue;
-    padding: 5rem;
     display: block;
+    font-size: 14px;
     font-weight: bolder;
-    font-size: 20px;
 }
 
 li:hover {
-    background-color: rgb(202, 223, 202);
+    background-color: white;
+}
+
+.active {
+    background: white;
+    color: darkblue;
 }
 
 h2 {
@@ -58,33 +62,27 @@ h2 {
     margin-bottom: 0rem;
 }
 
-.container {
-    padding: 1rem;
-    margin: 1rem;
-}
 
-.rounded-circle {
-    height:400px;
-    width: 400px;
-    clear: both;
-    float: left;
-    margin: 10px;
-}
-
-.img-fluid {
-    max-width: 100%;
+img {
+    width: 100%;
     height: auto;
-}  
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
 
 .text {
-    font-size: 40px;
+    font-size: 20px;
 }
 
-.github {
-    font-size: 40px;
-    margin: 0%;
-    padding: 0%;
+.text-about {
+    font-size: 16px;
 }
+
+.pages {
+    display: inline;
+}
+
 .footer-jumbotron {
     background: url(https://www.gonomad.com/images/destinations/0701/cleveland-images/North-Coast-Harbor-Skyline.jpg) no-repeat 50% 50%;
     background-size: 100%;
@@ -103,13 +101,13 @@ h2 {
     text-align: center;
 }
 
-@media screen and (max-width: 400px){
+/* @media screen and (max-width: 400px){
     .rounded-circle{width: 200px; }
 }
 @media screen and (min-width: 400px){
     .rounded-circle{width: 200px; }
 } 
-.rounded-circle {height: auto}
+.rounded-circle {height: auto} */
 
 /* @media screen and (max-width: 200px){
     .rounded-circle{

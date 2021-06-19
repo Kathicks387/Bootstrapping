@@ -5,7 +5,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(230, 233, 224);
 }
 
 .jumbotron-above{
@@ -24,62 +23,86 @@ h1{
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
-    color: darkblue;
+    background-color: darkblue;
     background-size: 100%;
 }
 .navbar-nav ul {
-    margin: 0;
-    padding: 0;
+    margin-left: 5px;
+    padding-left: 5px;
     display: flex;
 }
 
 li {
     list-style: none;
+    margin: 20px;
 }
 
 a{
     text-decoration: none;
     color: darkblue;
-    padding: 4rem;
     display: block;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 14px;
     
 }
 
 li:hover {
-    background-color: rgb(202, 223, 202);
+    background-color: white;
+}
+
+.active {
+    background: white;
+    color: darkblue;
 }
 
 h2 {
     color: darkblue;
-    margin-left: 4rem;
+    margin-left: 5rem;
     margin-bottom: 0rem;
  }
+ h5 {
+    font-weight: bolder;
+ }
+
+ .card-img-top {
+     width: 100%;
+     height: 15vw;
+     object-fit: cover;
+ }
+ .img-fluid {
+    max-width: 100%;
+    height: auto;
+ } 
 
  .card-title {
-     font-size: 50px;
+     font-size: 20px;
      text-align: center;
      color: darkblue;
  }
-
+ .info {
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
  .para {
      text-align: center;
      color: darkblue;
      font-size: 30px;
  }
-.img {
-    height: 100%;
-    width: 100%;
-    z-index: 0; 
-    position: relative;
-    padding: 4rem;
-    margin: 1rem;
-    display: inline-block
+
+.btn {
+    display: inline-block;
+    background-color: darkblue;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-left: 40px;
 }
 
+.btn:hover {
+    background-color: white;
+    color: darkblue;
+}
 .float {
     display: inline-block;
 }
