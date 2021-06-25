@@ -84,6 +84,10 @@ p, .size{
     padding: 0px;
 }
 
+.contact-email{
+    font-size: 18px;
+}
+
 .footer-jumbotron {
     background: url(https://www.gonomad.com/images/destinations/0701/cleveland-images/North-Coast-Harbor-Skyline.jpg) no-repeat 50% 50%;
     background-size: 100%;
