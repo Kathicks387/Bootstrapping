@@ -80,6 +80,9 @@ h2 {
      object-fit: cover;
      background-position: right center;
  }
+ .card-img-top.all {
+     height: 295px;
+ }
  .img-fluid {
     max-width: 100%;
     height: auto;
@@ -93,7 +96,10 @@ h2 {
      color: darkblue;
  }
 
- 
+ .card-title {
+     margin-top: 60px;
+ }
+
  .info {
     margin-top: 40px;
     margin-bottom: 70px;

@@ -1,12 +1,10 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     margin: 0;
     padding: 0;
 }
-
 .jumbotron-above{
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -14,13 +12,11 @@ body {
     background-size: 100%;
     text-align: center;
 }
-
 h1{
     color: darkblue;
     font-style: italic;
     font-weight: 600;
 }
-
 .navbar {
     display: flex;
     justify-content: left;
@@ -33,12 +29,10 @@ h1{
     padding-left: 5px;
     display: flex;
 }
-
 li {
     list-style: none;
     margin: 20px;
 }
-
 a{
     text-decoration: none;
     color: darkblue;
@@ -46,46 +40,36 @@ a{
     font-size: 14px;
     font-weight: bolder;
 }
-
+a.pages {
+    display: inline;
+    font-size: 20px;
+}
 li:hover {
     background-color: white;
 }
-
 .active {
     background: white;
     color: darkblue;
 }
-
 h2 {
     color: darkblue;
     margin-left: 5rem;
     margin-bottom: 0rem;
 }
-
-
+.bar {
+   margin-bottom: 0rem;
+}
 img {
     width: 100%;
     height: auto;
     margin-top: 50px;
     margin-bottom: 40px;
-
 }
-
-.text {
-    font-size: 20px;
+.text-welcome {
+    font-size: 30px;
 }
-
 .text-about {
-    font-size: 16px;
-}
-
-.pages {
-    display: inline;
-}
-
-.post-color {
-    color: darkblue;
-    font-weight: bolder;
+    font-size: 20px;
 }
 .footer-jumbotron {
     background: url(https://www.gonomad.com/images/destinations/0701/cleveland-images/North-Coast-Harbor-Skyline.jpg) no-repeat 50% 50%;
@@ -93,25 +77,23 @@ img {
     height: 100px;
     padding-top: .8rem;
 }
-
-.footer {
-    font-size: 20px;
-}
-.footer-jumbotron p{
-    margin: 0;
-    padding: 0;
+.text-footer{
+    padding: 20px;
     color: darkblue;
     font-weight: bolder;
     text-align: center;
+    font-size: 18px;
 }
 
-/* @media screen and (max-width: 400px){
+ /* @media screen and (max-width: 375px){
+     .navbar{display: inline-flex;},
+     {width: 100%;}
     .rounded-circle{width: 200px; }
 }
 @media screen and (min-width: 400px){
     .rounded-circle{width: 200px; }
 } 
-.rounded-circle {height: auto} */
+.rounded-circle {height: auto}  */
 
 /* @media screen and (max-width: 200px){
     .rounded-circle{
