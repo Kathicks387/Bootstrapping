@@ -167,7 +167,7 @@ img {
     font-weight: bolder;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1023){
     .image-container .after .grp_button1 {
         bottom: 20%;
         left: 5%;
@@ -182,10 +182,25 @@ img {
         top: 20%;
     }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1024px) and (max-width: 1799px) {
     .image-container .after .grp_button1 {
         bottom: 20%;
-        left: 25%;
+        left: 15%;
+        width: 300px;
+    }
+    .image-container .after .grp_button2 {
+        bottom: 20%;
+        left: 55%;
+        width: 300px;
+    }
+    .image-container .after .content {
+        top: 25%;
+    }
+}
+@media screen and (min-width: 1800px) {
+    .image-container .after .grp_button1 {
+        bottom: 20%;
+        left: 45%;
         width: 400px;
     }
     .image-container .after .grp_button2 {
@@ -197,21 +212,8 @@ img {
         top: 25%;
     }
 }
-@media screen and (min-width: 1024px) {
-    .image-container .after .grp_button1 {
-        bottom: 20%;
-        left: 5%;
-        width: 400px;
-    }
-    .image-container .after .grp_button2 {
-        bottom: 20%;
-        left: 55%;
-        width: 400px;
-    }
-    .image-container .after .content {
-        top: 25%;
-    }
-}
+
+
 @media screen and (min-width: 768px) and (max-width: 900px) {
     .email-text {
         font-size: 8px;
