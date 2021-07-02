@@ -4,107 +4,211 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 .jumbotron-above{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
     background: url(https://www.gonomad.com/images/destinations/0701/cleveland-images/North-Coast-Harbor-Skyline.jpg) no-repeat 50% 50%;
     background-size: 100%;
-    text-align: center;
 }
+
 h1{
     color: darkblue;
     font-style: italic;
     font-weight: 600;
+    margin-bottom: 0px;
 }
 .navbar {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    background-size: 100%;
-    background-color: darkblue;
+    background: darkblue;
 }
-.navbar-nav ul {
-    margin-left: 5px;
-    padding-left: 5px;
-    display: flex;
-}
-li {
-    list-style: none;
-    margin: 20px;
-}
-a{
-    text-decoration: none;
-    color: darkblue;
-    display: block;
-    font-size: 14px;
-    font-weight: bolder;
-}
-a.pages {
-    display: inline;
-    font-size: 20px;
+
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
 }
 li:hover {
     background-color: white;
 }
-.active {
+
+a {
+    font-size: 12px;
+    font-weight: 500;
+}
+a.hover_darkblue:hover {
+    color: darkblue !important;
+}
+
+a.active {
     background: white;
     color: darkblue;
+    width: 100%;
+    font-weight: 700;
+}
+a.btn {
+    background: darkblue;
+    color: white;
+    
 }
 h2 {
     color: darkblue;
-    margin-left: 5rem;
-    margin-bottom: 0rem;
 }
 .bar {
-   margin-bottom: 0rem;
+    height: 4px;
+    background-color: darkblue;
+}
+
+hr {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.card-img-top {
+    height: 200px;
+}
+.card-contact {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+}
+.image-container img {display: block;}
+.image-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+  
 }
 img {
     width: 100%;
-    height: auto;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    height: 100vh;
 }
-.text-welcome {
-    font-size: 30px;
+.image-container:hover .after {
+    display: block;
+    background: rgba(4, 18, 216, 0.6);
 }
-.text-about {
+.image-container .after .content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 70%;
     font-size: 20px;
+    font-weight: 800;
+    box-sizing: border-box;
+    padding: 5px;
 }
-.footer-jumbotron {
+.image-container .after .grp_button1 {
+    color: darkblue;
+    background: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 15%;
+    left: 25%;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 5px;
+}
+.image-container .after .grp_button2 {
+    color: darkblue;
+    background: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 5px;
+}
+.image-container .after .grp_button1:hover,
+.image-container .after .grp_button2:hover {
+    color: white;
+    background: darkblue;
+}
+ 
+.size{
+    color: darkblue;
+    font-size: 16px;
+    font-style: italic;
+    text-decoration: none;
+}
+.email-text {
+    font-size: 14px;
+}
+.card-contact {
+    color: darkblue;
+}
+
+.divide-bar {
+    margin-top: 40px;
+ 
+}
+.jumbotron {
     background: url(https://www.gonomad.com/images/destinations/0701/cleveland-images/North-Coast-Harbor-Skyline.jpg) no-repeat 50% 50%;
     background-size: 100%;
     height: 100px;
-    padding-top: .8rem;
 }
+
 .text-footer{
-    padding: 20px;
     color: darkblue;
     font-weight: bolder;
-    text-align: center;
-    font-size: 18px;
 }
 
- /* @media screen and (max-width: 375px){
-     .navbar{display: inline-flex;},
-     {width: 100%;}
-    .rounded-circle{width: 200px; }
-}
-@media screen and (min-width: 400px){
-    .rounded-circle{width: 200px; }
-} 
-.rounded-circle {height: auto}  */
-
-/* @media screen and (max-width: 200px){
-    .rounded-circle{
-        display: -moz-inline-box;
+@media screen and (min-width: 768px) {
+    .image-container .after .grp_button1 {
+        bottom: 20%;
+        left: 5%;
+        width: 300px;
+    }
+    .image-container .after .grp_button2 {
+        bottom: 20%;
+        left: 55%;
+        width: 300px;
+    }
+    .image-container .after .content {
+        top: 20%;
     }
 }
+@media screen and (min-width: 992px) {
+    .image-container .after .grp_button1 {
+        bottom: 20%;
+        left: 5%;
+        width: 400px;
+    }
+    .image-container .after .grp_button2 {
+        bottom: 20%;
+        left: 55%;
+        width: 400px;
+    }
+    .image-container .after .content {
+        top: 25%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+    .email-text {
+        font-size: 8px;
+    }
+    .size {
+        font-size: 10px;
+    }
+    .phone-text {
+       padding-top: 10px;
+    }
 
-.container-fluid{
-    display: -moz-inline-box;
-} */
-
+}
 
 
 
