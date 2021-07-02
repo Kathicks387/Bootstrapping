@@ -182,11 +182,14 @@ img {
 }
 
 @media screen and (min-width: 375px) {
-  /* .prev,
-  .next {
-    top: 20%;
-  } */
+
   .numbertext {
     top: 10px;
   }
+}
+@media screen and (min-width: 1024px) {
+ .jumbotron {
+   margin-top: 100px;
+} 
+   
 }
