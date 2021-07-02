@@ -203,6 +203,10 @@ img {
     .image-container .after .content {
         top: 25%;
     }
+    .contact-container {
+        margin-top: 250px;
+        margin-bottom: 250px;
+    }
 }
 @media screen and (min-width: 1800px) {
     .image-container .after .grp_button1 {
