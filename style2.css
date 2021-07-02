@@ -2,301 +2,194 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
+
+
 
 .jumbotron-above{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    background: url(https://www.gonomad.com/images/destinations/0701/cleveland-images/North-Coast-Harbor-Skyline.jpg) no-repeat 50% 50%;
-    background-size: 100%;
-    text-align: center;
+  background: url(https://www.gonomad.com/images/destinations/0701/cleveland-images/North-Coast-Harbor-Skyline.jpg) no-repeat 50% 50%;
+  background-size: 100%;
+  display:flex;
+  align-content:center;
+  justify-items:center;
+  align-items:center;
 }
 
 h1{
     color: darkblue;
     font-style: italic;
     font-weight: 600;
+    margin-bottom: 0;
 }
 
 .navbar {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    background-color: darkblue;
-    background-size: 100%;
+  background-color: darkblue;
 }
-.navbar-nav ul {
-    margin-left: 5px;
-    padding-left: 5px;
-    display: flex;
-}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 
-li {
-    list-style: none;
-    margin: 20px;
-}
-
-a{
-    text-decoration: none;
-    color: darkblue;
-    display: block;
-    font-weight: bolder;
-    font-size: 14px;
-    
 }
 
 li:hover {
     background-color: white;
 }
+a{
+    font-size: 12px;
+    font-weight: 500;
+}
 
-.active {
+a.active {
     background: white;
     color: darkblue;
+    width: 100%;
+    font-weight: 700;
+}
+a.hover_darkblue:hover {
+  color: darkblue !important;
 }
 
 h2 {
     color: darkblue;
-    margin-left: 5rem;
-    margin-bottom: 0rem;
- }
+}
+.bar {
+  height: 4px;
+  background-color: darkblue;
+}
+
+hr {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
  h5 {
     font-weight: bolder;
  }
- .container.group {
-    justify-content: center;
-}
- 
- .card-group {
-   
-   margin-top: 3rem;
-   margin-right: 3rem;
- }
- .card-img-top {
-     width: 100%;
-     height: 15vw;
-     object-fit: cover;
-     background-position: right center;
- }
- .card-img-top.all {
-     height: 295px;
- }
- .img-fluid {
-    max-width: 100%;
-    height: auto;
-    
- } 
+img {
+    vertical-align: middle;
+  }
 
-
- .card-title {
-     font-size: 20px;
-     text-align: center;
-     color: darkblue;
- }
-
- .card-title {
-     margin-top: 60px;
- }
-
- .info {
-    margin-top: 40px;
-    margin-bottom: 70px;
+/* Position the image container (needed to position the left and right arrows) */
+.container-fluid {
+  position: relative;
 }
 
-.ask {
-    margin-left: 190px;
+/* Hide the images by default */
+.mySlides {
+  display: none;
 }
 
- .para {
-     text-align: center;
-     color: darkblue;
-     font-size: 30px;
- }
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
 
-.btn {
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: white;
+    font-size: 15px;
+    /* font-weight: bolder; */
+    padding: 8px 12px;
+    position: absolute;
+    top: 51px;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  background-color: darkblue;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+.caption-container #caption {
+    margin: 0;
+
+}
+ .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin: 0px;
+  padding-bottom: 0px;
+} 
+.container-1 {
+    font-size: 0;
+}
+.btn{
     display: inline-block;
-    background-color: darkblue;
-    margin-bottom: 10px;
-    font-weight: bold;
-    margin-left: 40px;
-}
-
-.btn:hover {
-    background-color: white;
-    color: darkblue;
-}
-.float {
-    display: inline-block;
-}
-
-.floats {
-    display: inline-block;
-    padding: 3rem;
-}
-
-.over {
-    text-align: center;
-}
-
-
-.generator {
-    font-size: 13px;
-}
-
-
-
-.footer-jumbotron {
-    background: url(https://www.gonomad.com/images/destinations/0701/cleveland-images/North-Coast-Harbor-Skyline.jpg) no-repeat 50% 50%;
-    background-size: 100%;
-    height: 80px;
-    padding-top: .8rem;
-    
-}
-
-.footer-jumbotron p{
+    width: 50%;
     margin: 0;
     padding: 0;
+    background: white;
     color: darkblue;
-    font-weight: bolder;
-    text-align: center;
+    font-weight: bold;
 }
- 
+.btn:hover {
+    background: darkblue;
+    color: white;
+}
 
-/* dNew stuff */
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
 
+.active,
+.demo:hover {
+  opacity: 1;
+}
 
-/* h1 {
-    padding-bottom: 20px;
-} */
+.jumbotron {
+  background: url(https://www.gonomad.com/images/destinations/0701/cleveland-images/North-Coast-Harbor-Skyline.jpg) no-repeat 50% 50%;
+  background-size: 100%;
+  height: 120px;
+}
 
-/* .details {
-    height: 200px;
-    /* background: #f5f2f2; */
-    /* justify-content: center; */
-    /* text-align: center;
-    padding: 40px 0;
-} */ 
+.text-footer{
+  color: darkblue;
+  font-weight: bolder;
+}
 
-/* .details-para {
-   margin: auto;
-   margin-left: 90px;
-   margin-right: 90px;
-} */
+@media screen and (min-width: 375px) {
 
-/* .btn-group {
-    margin: 30px; */
-/* } */
-    /* #wood {
-        color: #fff;
-        background: var(--dark-color);
-        padding: 2rem;
-        position: relative;
-    }
-    
-    #wood:before {
-        content: '';
-        background: url('img/wooddoor_pic.png') no-repeat center center/cover;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0.4;
-    }
-
-    #wood .wood-container {
-        /* display: grid; */
-        /* grid-template-columns: repeat(2, 1fr); */
-        /* justify-content: center; */
-        /* align-items: center;
-        height: 50vh;
-    } */ 
-
-    .heading {
-        /* background-color: #413e3e; */
-        padding: 5px 0;
-        /* justify-content: center; */
-        text-align: center;
-        height: 125px;
-        font-family: inherit;
+  .numbertext {
+    top: 10px;
+  }
+}
+@media screen and (min-width: 1024px) {
+ .jumbotron {
+   margin-top: 100px;
+} 
    
-    }
-    .image-container {
-        position: relative;
-        display: inline-block;
-        width: 100vw;
-        height: 100vh;
-       
-    }
-    .image-container img {display: block;}
-    .image-container .after {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        display: none;
-        color: #FFF;
-      
-    }
-    img {
-        width: 100%;
-        height: 100vh;
-    }
-    .image-container:hover .after {
-        display: block;
-        background: rgba(4, 18, 216, 0.6);
-    }
-    .image-container .after .content {
-        position: absolute;
-        top: 30%;
-        left: 15%;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        text-align: center;
-        width: 70%;
-        font-size: 20px;
-        font-weight: 800;
-        box-sizing: border-box;
-        padding: 5px;
-    }
-    .image-container .after .grp_button1 {
-        color: darkblue;
-        background: white;
-        font-size: 20px;
-        position: absolute;
-        bottom: 10%;
-        left: 20%;
-        height: 50px;
-        width: 300px;
-        cursor: pointer;
-        text-align: center;
-        padding-top: 5px;
-    }
-    .image-container .after .grp_button2 {
-        color: darkblue;
-        background: white;
-        font-size: 20px;
-        position: absolute;
-        bottom: 10%;
-        left: 50%;
-        height: 50px;
-        width: 300px;
-        cursor: pointer;
-        text-align: center;
-        padding-top: 5px;
-    }
-    .image-container .after .grp_button1:hover,
-    .image-container .after .grp_button2:hover {
-        color: white;
-        background: darkblue;
-    }
-    .image-container .after .btn_vinyld {
-        bottom: 5%;
-    }
-
-    .divide-bar {
-        margin-top: 40px;
-     
-    }
+}
