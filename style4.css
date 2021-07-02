@@ -8,6 +8,10 @@
 .jumbotron-above{
   background: url(https://www.gonomad.com/images/destinations/0701/cleveland-images/North-Coast-Harbor-Skyline.jpg) no-repeat 50% 50%;
   background-size: 100%;
+  display:flex;
+  align-content:center;
+  justify-items:center;
+  align-items:center;
 }
 
 h1{
