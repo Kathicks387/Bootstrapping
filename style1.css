@@ -205,25 +205,25 @@ img {
     }
     .home-screen {
         font-size: 30px;
-        margin-top: 100px;
         margin-bottom: 100px;
     }
     .rounded-circle {
         width: 300px;
         height: 300px;
-        margin-top: 240px;
+        margin-top: 210px;
     }
     .home-content {
         text-align: left;
+        margin-top: 10px;
     }
     .about-content {
         font-size: 30px;
-        margin-top: 200px;
+        margin-top: 20px;
         margin-bottom: 200px;
     }
     .contact-container {
-        margin-top: 370px;
-        margin-bottom: 370px;
+        margin-top: 130px;
+        margin-bottom: 620px;
     }
 }
 @media screen and (min-width: 1800px) {
@@ -253,7 +253,19 @@ img {
     .phone-text {
        padding-top: 10px;
     }
-
+    .contact-container {
+        margin-top: 70px;
+        margin-bottom: 370px;
+    }
+    .rounded-circle {
+        width: 250px;
+        height: 250px;
+        margin-top: 80px;
+        margin-bottom: 130px;
+    }
+    .home-content {
+        text-align: left;
+    }
 }
 
 
