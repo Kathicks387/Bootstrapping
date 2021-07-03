@@ -189,7 +189,7 @@ img {
         top: 20%;
     }
 }
-@media screen and (min-width: 1024px) and (max-width: 1799px) {
+@media screen and (min-width: 1024px) and (max-width: 1055px) {
     .image-container .after .grp_button1 {
         bottom: 20%;
         left: 15%;
