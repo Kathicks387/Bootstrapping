@@ -174,7 +174,7 @@ img {
     font-weight: bolder;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023){
+@media screen and (min-width: 768px) and (max-width: 850px){
     .image-container .after .grp_button1 {
         bottom: 20%;
         left: 5%;
@@ -189,7 +189,7 @@ img {
         top: 20%;
     }
 }
-@media screen and (min-width: 1024px) and (max-width: 1055px) {
+@media screen and (min-width: 851px) and (max-width: 1055px) {
     .image-container .after .grp_button1 {
         bottom: 20%;
         left: 15%;
@@ -226,10 +226,10 @@ img {
         margin-bottom: 620px;
     }
 }
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1056px) {
     .image-container .after .grp_button1 {
         bottom: 20%;
-        left: 45%;
+        left: 15%;
         width: 400px;
     }
     .image-container .after .grp_button2 {
